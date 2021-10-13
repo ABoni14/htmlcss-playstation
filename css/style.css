@@ -1,3 +1,4 @@
+/* HEADER */
 .top-header{
   height: 30px;
   background-color: black;
@@ -13,16 +14,60 @@
   border-radius: 25px; 
   margin: 0 15px 0 10px;
 }
+/* //HEADER */
 
-
-
+/* JAMBOTRON */
 .ab-jambo-bg{
-  height: 500px;
-  background-image: url("../img/jumbo-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-top: 106px;
-  /* background-position: center; */
+  margin-bottom: 30px;
 }
 
+.ab-jambo-1{
+  background-image: url("../img/jumbo-bg.png");
+  margin-top: 106px;
+}
+
+.ab-content-jumbo{
+  padding: 350px 0 30px 0;
+  color: white;
+  height: 100%;
+}
+
+.ab-content-jumbo img{
+  width: 200px;
+}
+
+.ab-content-jumbo h2{
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.ab-btn-jumbo{
+  color: white;
+  background-color: #cd3d0f;
+  border-radius: 20px;
+}
+/* //JAMBOTRON */
+
+/* CARD JAMBOTRON */
+.ab-margin-jb{
+  margin-bottom: 60px;
+}
+
+.ab-card-jb img{
+  width: 100%;
+  border-radius: 10px;
+}
+/* //CARD JAMBOTRON */
+
+/* SECOND-JAMBOTRON */
+.ab-jambo-2{
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+.ab-jumbo2-padding{
+  padding: 50px 0;
+}
+/* //SECOND-JAMBOTRON */
