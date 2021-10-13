@@ -70,4 +70,16 @@
 .ab-jumbo2-padding{
   padding: 50px 0;
 }
+
+h2.ab-text-jumbo{
+  font-size: 40px;
+}
 /* //SECOND-JAMBOTRON */
+
+/* NUOVE USCITE */
+.ab-bg-grey{
+  background-color: #1f1f1f;
+  color: white;
+  padding: 20px 0;
+}
+/* //NUOVE USCITE */
