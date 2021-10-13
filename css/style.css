@@ -111,3 +111,13 @@ h2.ab-text-jumbo{
   width: 350px;
 }
 /* //PLAYSTATION PLUS */
+
+/* PLAYSTATION NOW */
+.ab-psnow-bg{
+  background-color: #161c3b;
+}
+
+.ab-btn-now{
+  background-color: white;
+}
+/* //PLAYSTATION NOW */
