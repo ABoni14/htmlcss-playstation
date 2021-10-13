@@ -1,0 +1,18 @@
+.top-header{
+  height: 30px;
+  background-color: black;
+
+}
+
+.top-header img{
+  height: 100%;
+  padding: 10px 7px;
+}
+
+.ab-jambo-bg{
+  height: 700px;
+  background-image: url("../img/jumbo-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 86px;
+}
