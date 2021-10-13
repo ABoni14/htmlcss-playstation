@@ -9,10 +9,20 @@
   padding: 10px 7px;
 }
 
+.ab-btn-nav{
+  border-radius: 25px; 
+  margin: 0 15px 0 10px;
+}
+
+
+
 .ab-jambo-bg{
-  height: 700px;
+  height: 500px;
   background-image: url("../img/jumbo-bg.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  margin-top: 86px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 106px;
+  /* background-position: center; */
 }
+
