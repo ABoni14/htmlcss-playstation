@@ -89,3 +89,25 @@ h2.ab-text-jumbo{
   padding: 20px 0;
 }
 /* //NUOVE USCITE */
+
+/* PLAYSTATION PLUS */
+.ab-ps-plus-bg{
+  background-color: #bebcbb;
+}
+
+.ab-contain-psplus{
+  display: flex;
+  justify-content: center;
+}
+
+.ab-btn-plus{
+  background-color: #d9dadc;
+  color: #2860e6;
+  border: none;
+  font-weight: 600;
+}
+
+.ab-plus-img{
+  width: 350px;
+}
+/* //PLAYSTATION PLUS */
