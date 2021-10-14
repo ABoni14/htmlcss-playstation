@@ -2,7 +2,6 @@
 .top-header{
   height: 30px;
   background-color: black;
-
 }
 
 .top-header img{
@@ -11,8 +10,31 @@
 }
 
 .ab-btn-nav{
-  border-radius: 25px; 
   margin: 0 15px 0 10px;
+  background-color: black;
+  border: 2px solid black;
+  transition: all .5s;
+}
+
+.ab-btn-nav:hover{
+  background-color: #5c636a;
+  border: 2px solid white;
+  outline: 2px solid #5c636a;
+}
+
+/* dropdown nav 100vw */
+nav { margin-bottom: 0; }
+
+.dropdown{ 
+  position: static;
+}
+
+.dropdown-menu{
+   width: 100%; text-align: center; 
+}
+
+.dropdown-menu>li{ 
+  display: inline-block; 
 }
 /* //HEADER */
 
@@ -21,7 +43,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-bottom: 30px;
 }
 
 .ab-jambo-1{
@@ -30,7 +51,7 @@
 }
 
 .ab-content-jumbo{
-  padding: 350px 0 30px 0;
+  padding: 350px 0 50px 0;
   color: white;
   height: 100%;
 }
@@ -47,7 +68,14 @@
 .ab-btn-jumbo{
   color: white;
   background-color: #cd3d0f;
-  border-radius: 20px;
+  border: 2px solid #cd3d0f;
+}
+
+.ab-btn-jumbo:hover{
+  background-color: #cd3d0f;
+  border: 2px solid black;
+  outline: 2px solid #cd3d0f;
+  transition: all .5s;
 }
 /* //JAMBOTRON */
 
@@ -59,12 +87,35 @@
 .ab-card-jb img{
   width: 100%;
   border-radius: 10px;
+  transition: all 1s ease-in-out;
+}
+
+.ab-effect-card-jb:hover img{
+  transform: translateY(-10%);
+}
+
+#ab-active-card{
+  outline: 2px solid blue;
 }
 /* //CARD JAMBOTRON */
 
 /* PS5 SECTION */
-.ab-margin-txt{
-  padding-top: 230px;
+img.ab-active-accessories-ps5{
+  transition: all 1s;
+}
+
+img.ab-active-accessories-ps5:hover{
+  opacity: 1.0 !important;
+}
+
+.ab-btn-blu-custom{
+  border: 2px solid #0d6efd;
+}
+
+.ab-btn-blu-custom:hover{
+  border: 2px solid white;
+  outline: 2px solid #0d6efd;
+  transition: all .5s;
 }
 /* //PS5 SECTION */
 
@@ -88,6 +139,10 @@ h2.ab-text-jumbo{
   color: white;
   padding: 20px 0;
 }
+
+.ab-card-jb .ab-br-newgame{
+  border-radius: 25px;
+}
 /* //NUOVE USCITE */
 
 /* PLAYSTATION PLUS */
@@ -103,8 +158,15 @@ h2.ab-text-jumbo{
 .ab-btn-plus{
   background-color: #d9dadc;
   color: #2860e6;
+  border: 2px solid #d9dadc;
   border: none;
   font-weight: 600;
+}
+
+.ab-btn-plus:hover{
+  color: #2860e6;
+  background-color: #d9dadc;
+  outline: 3px solid #c6c5c5;
 }
 
 .ab-plus-img{
@@ -119,5 +181,47 @@ h2.ab-text-jumbo{
 
 .ab-btn-now{
   background-color: white;
+  border: 2px solid white;
+}
+
+.ab-btn-now:hover{
+  background-color: white;
+  border: 2px solid black;
+  outline: 2px solid white;
+  transition: all .5s;
 }
 /* //PLAYSTATION NOW */
+
+/* SOCIAL */
+.ab-container-icon-social{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+/* //SOCIAL */
+
+/* FOOTER */
+.ab-footer-bg{
+  background-color: #00439c;
+  padding: 50px 0;
+  color: white;
+}
+
+.ab-logo-ps-footer{
+  width: 80px;
+}
+
+.ab-list-footer ul li{
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.ab-list-footer ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.ab-logo-sie{
+  width: 180px;
+}
+/* //FOOTER */
