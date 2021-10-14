@@ -23,8 +23,8 @@
 }
 
 .ab-dropdown-menu-custom{
-  margin-top: -2px;
-  padding-top: -2px;
+  margin-top: -1px !important;
+  border-radius: 0;
 }
 
 .ab-ps5icon-nav{
@@ -48,7 +48,9 @@
   color: white;
 }
 /* dropdown nav 100vw */
-nav { margin-bottom: 0; }
+nav{ 
+  margin-bottom: 0;
+ }
 
 .dropdown{ 
   position: static;
