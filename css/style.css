@@ -88,7 +88,7 @@ nav{
 }
 
 .ab-content-jumbo h2{
-  font-size: 30px;
+  font-size: 40px;
   padding: 10px 0;
 }
 
@@ -209,6 +209,10 @@ h2.ab-text-jumbo{
 }
 /* //PLAYSTATION PLUS */
 
+.ab-sale-effect:hover{
+  transition: all 0.5s ease-in-out;
+  opacity: 1 !important;
+}
 /* PLAYSTATION NOW */
 .ab-psnow-bg{
   background-color: #161c3b;
@@ -233,6 +237,12 @@ h2.ab-text-jumbo{
   max-width: 800px;
   padding: 0 20px;
 }
+
+.ab-icon-social-effect:hover{
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.1);
+}
 /* //SOCIAL */
 
 /* FOOTER */
@@ -256,7 +266,12 @@ h2.ab-text-jumbo{
   text-decoration: none;
 }
 
+.ab-list-footer ul li a:hover{
+  text-decoration: underline;
+}
+
 .ab-logo-sie{
   width: 180px;
 }
 /* //FOOTER */
+
